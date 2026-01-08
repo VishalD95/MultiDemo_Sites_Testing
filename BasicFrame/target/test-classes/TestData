@@ -1,0 +1,30 @@
+URL = http://127.0.0.1/orangehrm-2.5.0.2/login.php
+
+//user Login Details
+
+UN = selenium
+UP = Java@Selenium
+
+// User Login xpath
+
+XUN = //*[@name='txtUserName']
+XPWD = //*[@name ='txtPassword']
+XSUB = //*[@name ='Submit']
+
+Iframe = //*[@id = 'rightMenu']
+
+Xpim = //*[@id = 'pim']
+ADDEMP = //*[@id ='pim']/*[2]/*[2]
+
+//Add Employee Xpath
+
+EmpId = //*[@id ='txtEmployeeId']
+Lastname = //*[@id ='txtEmpLastName']
+FastName = //*[@name ='txtEmpFirstName']
+MidName = //*[@name ='txtEmpMiddleName']
+NicName = //*[@name ='txtEmpNickName']
+XPhoto = //*[@name ='photofile']
+XSave = //*[@id='btnEdit']
+XBACK = //*[@value = 'Back']
+
+XEdit = //*[@id = 'btnEditPers']
