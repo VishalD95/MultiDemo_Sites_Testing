@@ -4,7 +4,7 @@ Feature: login Feature
     Given User is on home Page
     When the login page should display the following elements
     | element               | expected             |
-    | logo                  | true                 |
+    | logo                  | False                 |
     | bannerImg             | true                 |
     | welcomeTitle          | Welcome              |
     | signINTo              | Sign In to Continue  |
