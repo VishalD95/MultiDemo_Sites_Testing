@@ -25,8 +25,9 @@ public class baseTest {
 
         //Load Properties
         props = new Properties();
-        FileInputStream f1 = new FileInputStream("C:\\Users\\visha\\IdeaProjects\\BasicAutomation\\Basicautomation\\MobileWise\\src\\test\\resources\\Mwise.properties");
+        FileInputStream f1 = new FileInputStream("src/test/resources/Mwise.properties");
         props.load(f1);
+
 
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
